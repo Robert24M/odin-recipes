@@ -1,4 +1,46 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#homepage {
+    background-image: url("../homepage.jpg");
+    background-size: cover;
+}
+
+#pistachio-salmon {
+    background-color: rgb(147, 195, 162);
+}
+
+#sushi {
+    background-color: lightcoral;
+}
+
 img {
     height: auto;
     width: 500px;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(158, 110, 28);
+    font-weight: bold;
+    font-size: 40px;
+}
+
+#recipes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+    
+}
+
+.link {
+    color:  lightgreen;
+    margin-top: 20px;
 }
